@@ -12,6 +12,9 @@ public class Amongus
 		this.kill = kill;
 		this.trap = trap;
 		this.name = name;
+		
+		public void setName(String name)
+
 	}
 
 }

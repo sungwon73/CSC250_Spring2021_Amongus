@@ -9,6 +9,9 @@ public class Driver {
 		
 		c1.setName("Imposter");
 		c1.display();
+		
+		String cardJson = Driver.getJSON("https://api.hearthstonejson.com/v1/25770/enUS/cards.json");
+		System.out.println(cardJson);
 
 	}
 
